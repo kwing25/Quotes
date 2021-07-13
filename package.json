@@ -1,0 +1,22 @@
+{
+  "name": "quotes",
+  "version": "1.0.0",
+  "description": "Quotes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwing25/Quotes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwing25/Quotes/issues"
+  },
+  "homepage": "https://github.com/kwing25/Quotes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
