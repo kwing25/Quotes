@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "topic": "Motivational",
+        "quote": "It always seems impossible until it's done.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "id": 2,
+        "topic": "Motivational",
+        "quote": "Life is 10% what happens to you and 90% how you react to it.",
+        "author": "Charles R. Swindoll"
+    },
+    {
+        "id": 3,
+        "topic": "Motivational",
+        "quote": "With the new day comes new strength and new thoughts.",
+        "author": "Eleanor Roosevelt"
+    },
+    {
+        "id": 4,
+        "topic": "Motivational",
+        "quote": "Knowing is not enough; we must apply. Willing is not enough; we must do.",
+        "author": "Johann Wolfgang von Goethe"
+    },
+    {
+        "id": 5,
+        "topic": "Motivational",
+        "quote": "Quality is not an act, it is a habit.",
+        "author": "Aristotle"
+    },
+    {
+        "id": 6,
+        "topic": "Motivational",
+        "quote": "Be kind whenever possible. It is always possible.",
+        "author": "Dalai Lama"
+    },
+    {
+        "id": 7,
+        "topic": "Motivational",
+        "quote": "When you reach the end of your rope, tie a knot in it and hang on.",
+        "author": "Franklin D. Roosevelt"
+    },
+    {
+        "id": 8,
+        "topic": "Motivational",
+        "quote": "Failure will never overtake me if my determination to succeed is strong enough.",
+        "author": "Og Mandino"
+    },
+    {
+        "id": 9,
+        "topic": "Motivational",
+        "quote": "If you fell down yesterday, stand up today.",
+        "author": "H. G. Wells"
+    },
+    {
+        "id": 10,
+        "topic": "Motivational",
+        "quote": "The secret of getting ahead is getting started.",
+        "author": "Mark Twain"
+    },
+    {
+        "id": 11,
+        "topic": "Life",
+        "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+        "author": "Marie Curie"
+    },
+    {
+        "id": 12,
+        "topic": "Life",
+        "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+        "author": "Buddha"
+    },
+    {
+        "id": 13,
+        "topic": "Life",
+        "quote": "Life is what happens while you are busy making other plans.",
+        "author": "John Lennon"
+    },
+    {
+        "id": 14,
+        "topic": "Life",
+        "quote": "Every man dies. Not every man really lives.",
+        "author": "William Wallace"
+    },
+    {
+        "id": 15,
+        "topic": "Life",
+        "quote": "We must be willing to let go of the life we have planned, so as to have the life that is waiting for us.",
+        "author": "E. M. Forster"
+    },
+    {
+        "id": 16,
+        "topic": "Life",
+        "quote": "Open your eyes, look within. Are you satisfied with the life you're living?",
+        "author": "Bob Marley"
+    },
+    {
+        "id": 17,
+        "topic": "Life",
+        "quote": "A man who dares to waste one hour of time has not discovered the value of life.",
+        "author": "Charles Darwin"
+    },
+    {
+        "id": 18,
+        "topic": "Life",
+        "quote": "You're only here for a short visit. Don't hurry, don't worry. And be sure to smell the flowers along the way.",
+        "author": "Walter Hagen"
+    },
+    {
+        "id": 19,
+        "topic": "Life",
+        "quote": "You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.",
+        "author": "Albert Camus"
+    },
+    {
+        "id": 20,
+        "topic": "Life",
+        "quote": "All the art of living lies in a fine mingling of letting go and holding on.",
+        "author": "Havelock Ellis"
+    }
+]
