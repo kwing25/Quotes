@@ -1,45 +1,22 @@
-// $.getJSON( "quotes.json", function( json ) {
-//     console.log( "JSON Data received, name is " + json.name);
-// });
+// Trying to load json file - https://www.geekstrick.com/load-json-file-locally-using-pure-javascript/ ...
+function loadJSON(callback) {
 
-// import quotes.json
-
-// with open('data.txt') as json_file:
-//     data = json.load(json_file)
-
-//     const fs = require('fs');
-
-// fs.readFile('./customer.json', 'utf8', (err, jsonString) => {
-//   if (err) {
-//     console.log("File read failed:", err)
-//     return 
-//   }
-//   console.log('File data:', jsonString)
-// })
-
-// const fs = require('fs');
-
-// fs.readFile('./customer.json', 'utf8', (err, jsonString) => {
-//   if (err) {
-//     console.log("File read failed:", err)
-//     return 
-//   }
-//   console.log('File data:', jsonString)
-// })
-
-// fetch('https://github.com/kwing25/Quotes/blob/main/lib/quotes.json')
-// .then(res => res.json())
-// .then(data => {
-//   console.log(data)
-// })
-// .catch(err => console.error(err));
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', './quotes.json', true); // Replace 'appDataServices' with the path to your file
+    xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
+        }
+    };
+    xobj.send(null);
+}
 
 
-// const data = await import('./lib/quotes.json')
-// console.log(data);
-
-var mydata = JSON.parse(data);
-alert(mydata[0].name);
-alert(mydata[0].age);
-alert(mydata[1].name);
-alert(mydata[1].age);
+function init() {
+    loadJSON(function (response) {
+        // Parsing JSON string into object
+        var actual_JSON = JSON.parse(response);
+    });
+}
