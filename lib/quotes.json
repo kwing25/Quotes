@@ -118,5 +118,17 @@
         "topic": "Life",
         "quote": "All the art of living lies in a fine mingling of letting go and holding on.",
         "author": "Havelock Ellis"
+    },
+    {
+        "id": 21,
+        "topic": "Changing",
+        "quote": "Look back over the past, with its changing empires that rose and fell, and you can foresee the future, too.",
+        "author": "Marcus Aurelius"
+    },
+    {
+        "id": 22,
+        "topic": "Changing",
+        "quote": "We must adjust to changing times and still hold to unchanging principles.",
+        "author": "Jimmy Carter"
     }
 ]
